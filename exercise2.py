@@ -6,8 +6,8 @@ names1 = ['connor', 'connor', 'bob', 'connor', 'evan', 'max', 'evan', 'bob', 'ke
 def CapitalizeNamesWith4OrMoreChars(names1):
     capitalNames = []
     for name in names1:
-        if len(name)>=4:
-            capitalNames.append(name.capitalize())
+        if len(str(name))>=4:
+            capitalNames.append(str(name).capitalize())
     return capitalNames
 
 print(CapitalizeNamesWith4OrMoreChars(names1))
