@@ -1,5 +1,5 @@
 #Create a list of names of 4 letters or more and capitalize each name
-#*Double Bonus* Do it using list comprehension
+#Refactored to account for edge case, even if "name" is a 4-digit (or higher) number
 
 names1 = ['connor', 'connor', 'bob', 'connor', 'evan', 'max', 'evan', 'bob', 'kevin']
 
